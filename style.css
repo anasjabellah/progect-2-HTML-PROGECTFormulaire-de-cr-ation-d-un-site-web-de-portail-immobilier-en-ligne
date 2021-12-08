@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8387c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+body::after{
+    position: absolute;
+    content: "";
+    left: -173px;
+    top: 0;
+    width: 302%;
+    transform: rotate(15deg);
+    height: 100%;
+    background-color: #989bcd;
+    z-index: -1;
+}
+
+.body-content{
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.body-content-img{
+    width: 40%;
+    height: 100%;
+    background-image: url("ralph-kelly-z9fFOzL5L_Y-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.body-content-form{
+    width: 60%;
+    height: 100%;
+}
+
+
+.contener{
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+    padding: 30px 10px;
+}
+
+.contener h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+
+.forms{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.forms form{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms form .searchlabel{
+    color: rgb(46, 51, 80);
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.forms form input{
+    padding:15px 10px;
+    margin: 12px 0;
+    border: none;
+    border-bottom: 2px solid gray ;
+    outline: none;
+    background-color: rgb(233, 232, 232);
+}
+
+::placeholder {
+    color: gray;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+}
+
+.chok-chanbres ,   .type-propriete{
+    margin-top: 10px;
+}
+
+.chok-chanbres p , .type-propriete label{
+    color: rgb(46, 51, 80);
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+
+.type-propriete label{
+    display: block;
+}
+
+.type-propriete select{
+    width: 100%;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid gray ;
+    background-color: rgb(233, 232, 232);
+    color: gray;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    outline: none;
+}
+
+
+.type-propriete select .option{
+    padding: 0 10px;
+}
+
+
+
+.disabled-selected-hidden{
+    color: rgb(46, 51, 80);
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+
+.search{
+    padding: 12px 20px;
+    width: 50%;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.title-logo{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50% ;
+    border: 4px solid black;
+}
+.title-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#checkbox{
+    width: 15px;
+    height: 15px;
+}
